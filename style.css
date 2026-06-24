@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 img {
@@ -7,7 +8,7 @@ img {
     max-height: 75px;
 }
 
-#list {
+.list {
     display: flex;
 }
 
@@ -18,6 +19,8 @@ body {
 footer {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 
     height: 10vh;
     border: 1px;
@@ -26,8 +29,12 @@ footer {
 }
 
 header {
-    height: 10vh;
     border: 1px;
     margin: 10px;
     background-color: #2F4858;
+    font-weight: bold;
+}
+
+nav {
+    padding: 10px;
 }
