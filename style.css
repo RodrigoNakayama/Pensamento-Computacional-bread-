@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 img {
@@ -10,6 +10,16 @@ img {
 
 .list {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #CAE9FF;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.35);
+    border: ridge;
 }
 
 body {
@@ -33,12 +43,27 @@ header {
     margin: 10px;
     background-color: #2F4858;
     font-weight: bold;
-}
-
-nav {
-    padding: 10px;
+    padding: 12px;
+    border-radius: 8px;
 }
 
 a {
     color: black;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+}
+
+#vasco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: ;
+}
+
+h2 {
+    padding-top: 20px;
 }
